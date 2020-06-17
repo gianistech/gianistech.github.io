@@ -1,0 +1,153 @@
+body{
+    font-family: 'Open Sans'; 
+    font-size:22px;
+}
+
+h1{
+    font-size: 100px;
+}
+
+#footer p{
+    text-align: left;
+    padding: 20px 20px;
+    color: white;
+}
+
+.main{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#header{
+    height: 150px;
+    width: 100%;
+    background-color: #f3ebf4;
+    margin: auto;
+    background-image: url("header.jpg");
+}
+
+#navigation_bar{
+    width: 100%;
+    hight: 50px;
+    display:inline-block;
+    margin: 0 auto;
+}
+
+.content{
+    height: 800px;
+    width: 600px;
+    background-color: white;
+    margin: auto;
+}
+
+#footer{
+    height: 400px;
+    width: 100%;
+    background-color: #f3ebf4;
+    margin: auto;
+    background-image: url("footer.png");
+}
+
+/*Dropdown Menu*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color:#006699;*/
+    background: url("nav_bar.jpg");
+}
+li{ 
+    float: left;
+}
+li a, .dropbtn{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+li a:hover, .dropdown:hover .dropbtn{
+    background-color: #006600;
+}
+li.dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #006600;}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.content{
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*Mechatronic*/
+textarea{
+    height: 75px;
+    width: 250px;
+    resize: none;
+    text-align: justify;
+    text-align-last: left;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+
+video{
+    display:block;
+    margin: 0 auto;
+}
+
+/*Contact form*/
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #006600;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
